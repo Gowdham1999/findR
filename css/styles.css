@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500&display=swap');
+
+html,
+body {
+    margin: 0;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+.head-section {
+    padding: 3% 10%
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+span {
+    font-size: 2.3rem;
+    color: #e9387f
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+#title {
+    background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+.download-button {
+    margin: 5% 10px 15% 0;
+}
+
+.title-image {
+    width: 50%;
+    transition: transform 1s;
+}
+
+.title-image:hover {
+    transform: rotate(25deg);
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    text-align: center;
+    padding: 5% 15%
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    color: #fff;
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ee8e6b;
+    background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%);
+}
+
+.testimonial-text {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+/* .carousel-item {
+    padding: 7% 15%;
+} */
+
+/* Press Section */
+
+.press-logo {
+    width: 20%;
+    margin: 20px 20px 50px 20px;
+}
