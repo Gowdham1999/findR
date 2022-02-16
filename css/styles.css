@@ -88,13 +88,104 @@ h1 {
     margin-bottom: 10%;
 }
 
-/* .carousel-item {
-    padding: 7% 15%;
-} */
+.carousel-item {
+    padding: 7% 10%;
+    position: relative;
+}
 
 /* Press Section */
 
 .press-logo {
     width: 20%;
     margin: 20px 20px 50px 20px;
+}
+
+/* Cards */
+
+#pricing {
+    text-align: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.card {
+    width: 18rem;
+    min-height: 21rem;
+    margin: 10px auto;
+}
+
+.pricing-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-header>h3 {
+    font-weight: bold;
+}
+
+.card-body>h2 {
+    font-weight: bold;
+
+}
+
+.card-body>button {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+
+@media screen and (max-width:1024px) {
+
+    #title {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .title-image {
+        width: 40%;
+        transition: transform 1s;
+    }
+
+}
+
+/* Actions Section */
+
+#cta {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+#cta>h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+#cta>button {
+    margin: 20px;
+}
+
+/* Footer Section */
+
+#footer {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.social>i {
+    margin: 20px;
+}
+
+.social>i:hover {
+    cursor: pointer;
+}
+
+#footer>p {
+    color: grey;
+    font-size: small;
 }
